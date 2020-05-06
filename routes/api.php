@@ -1,7 +1,7 @@
 <?php
 
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Route;
+$api = app('Dingo\Api\Routing\Router');
+$baseControllersPath = 'App\Api\V1\Controllers\\';
 
 /*
 |--------------------------------------------------------------------------
@@ -14,6 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
+$api->version('v1', function (\Dingo\Api\Routing\Router $api) use ($baseControllersPath) {
+    $api->any('test', $baseControllersPath . 'TestController@test');
 });
