@@ -18,4 +18,6 @@ $api->version('v1', function (\Dingo\Api\Routing\Router $api) use ($baseControll
     $api->any('test', $baseControllersPath . 'TestController@test');
 
     $api->post('register', $baseControllersPath . 'UserController@createUser');
+
+    $api->get('login', $baseControllersPath . 'UserController@loginUser');
 });
