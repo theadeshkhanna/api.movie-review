@@ -16,4 +16,6 @@ $baseControllersPath = 'App\Api\V1\Controllers\\';
 
 $api->version('v1', function (\Dingo\Api\Routing\Router $api) use ($baseControllersPath) {
     $api->any('test', $baseControllersPath . 'TestController@test');
+
+    $api->post('register', $baseControllersPath . 'UserController@createUser');
 });
