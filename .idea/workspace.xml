@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d546e5e3-6b7c-4c01-b325-4faee4b7c502" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Api/V1/Exceptions/InvalidCredentialsException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Api/V1/Exceptions/UserNotExistsException.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Api/V1/Exceptions/HttpException.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Exceptions/HttpException.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +139,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vaetas-shopify-backend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
@@ -165,7 +161,8 @@
       <workItem from="1588776769380" duration="3712000" />
       <workItem from="1588782211365" duration="9000" />
       <workItem from="1588782261979" duration="273000" />
-      <workItem from="1588867929204" duration="4570000" />
+      <workItem from="1588867929204" duration="5387000" />
+      <workItem from="1588957132377" duration="2753000" />
     </task>
     <servers />
   </component>
