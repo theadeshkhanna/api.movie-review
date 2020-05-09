@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d546e5e3-6b7c-4c01-b325-4faee4b7c502" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/UserController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -139,7 +140,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../online-quiz-portal" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
@@ -162,7 +163,8 @@
       <workItem from="1588782211365" duration="9000" />
       <workItem from="1588782261979" duration="273000" />
       <workItem from="1588867929204" duration="5387000" />
-      <workItem from="1588957132377" duration="2753000" />
+      <workItem from="1588957132377" duration="3559000" />
+      <workItem from="1589031457337" duration="1475000" />
     </task>
     <servers />
   </component>
@@ -178,10 +180,10 @@
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="164" y="96" width="1657" height="885" key="DiffContextDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1588872500600" />
-    <state x="780" y="297" key="FileChooserDialogImpl" timestamp="1588868772500">
+    <state x="780" y="297" width="424" height="482" key="FileChooserDialogImpl" timestamp="1589035019669">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="780" y="297" key="FileChooserDialogImpl/65.24.1855.1056@65.24.1855.1056" timestamp="1588868772500" />
+    <state x="780" y="297" width="424" height="482" key="FileChooserDialogImpl/65.24.1855.1056@65.24.1855.1056" timestamp="1589035019669" />
     <state x="793" y="465" width="399" height="147" key="NewPhpFileDialog" timestamp="1588871386426">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>

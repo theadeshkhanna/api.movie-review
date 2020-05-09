@@ -20,4 +20,6 @@ $api->version('v1', function (\Dingo\Api\Routing\Router $api) use ($baseControll
     $api->post('register', $baseControllersPath . 'UserController@createUser');
 
     $api->post('login', $baseControllersPath . 'UserController@loginUser');
+
+    $api->post('logout', $baseControllersPath . 'UserController@logoutUser');
 });

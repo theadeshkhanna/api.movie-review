@@ -57,4 +57,8 @@ class UserController extends BaseController {
             'user'           => (new UserTransformer())->transform($user)
         ];
     }
+
+    public function logoutUser() {
+        JWTAuth::invalidate(JWTAuth::getToken());
+    }
 }
