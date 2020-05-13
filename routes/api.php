@@ -22,4 +22,6 @@ $api->version('v1', function (\Dingo\Api\Routing\Router $api) use ($baseControll
     $api->post('login', $baseControllersPath . 'UserController@loginUser');
 
     $api->post('logout', $baseControllersPath . 'UserController@logoutUser');
+
+    $api->post('fetchMovie', $baseControllersPath . 'MovieController@getMovieDetails');
 });
