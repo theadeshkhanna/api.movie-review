@@ -3,7 +3,7 @@
 namespace App\Services;
 
 use App\Bookmark;
-use App\Service\Contracts\CreateBookmarkContract;
+use App\Services\Contracts\CreateBookmarkContract;
 
 class BookmarkService {
 

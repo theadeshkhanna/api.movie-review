@@ -2,7 +2,7 @@
 
 namespace App\Api\V1\Requests;
 
-use App\Service\Contracts\CreateBookmarkContract;
+use App\Services\Contracts\CreateBookmarkContract;
 
 class CreateBookmarkRequest extends BaseRequest implements CreateBookmarkContract {
     const RATING = 'rating';

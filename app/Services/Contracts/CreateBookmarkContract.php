@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Service\Contracts;
+namespace App\Services\Contracts;
 
 interface CreateBookmarkContract {
     public function getTitle();

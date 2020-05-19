@@ -14,14 +14,18 @@ $baseControllersPath = 'App\Api\V1\Controllers\\';
 |
 */
 
-$api->version('v1', function (\Dingo\Api\Routing\Router $api) use ($baseControllersPath) {
+$api->version('v1', function ($api) use ($baseControllersPath) {
     $api->any('test', $baseControllersPath . 'TestController@test');
 
     $api->post('register', $baseControllersPath . 'UserController@createUser');
 
     $api->post('login', $baseControllersPath . 'UserController@loginUser');
+});
 
+$api->version('v1', ['middleware' => ['api.auth']], function ($api) use ($baseControllersPath) {
     $api->post('logout', $baseControllersPath . 'UserController@logoutUser');
 
     $api->post('fetchMovie', $baseControllersPath . 'MovieController@getMovieDetails');
+
+    $api->post('bookmark', $baseControllersPath . 'BookmarksController@create');
 });
