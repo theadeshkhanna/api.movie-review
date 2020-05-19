@@ -28,4 +28,6 @@ $api->version('v1', ['middleware' => ['api.auth']], function ($api) use ($baseCo
     $api->post('fetchMovie', $baseControllersPath . 'MovieController@getMovieDetails');
 
     $api->post('bookmark', $baseControllersPath . 'BookmarksController@create');
+``
+    $api->get('bookmarks', $baseControllersPath . 'BookmarksController@index');
 });
