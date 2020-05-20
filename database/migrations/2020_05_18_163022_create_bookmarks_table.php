@@ -16,6 +16,7 @@ class CreateBookmarksTable extends Migration
         Schema::create('bookmarks', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('user_id');
+            $table->string('imdb_id');
             $table->string('poster');
             $table->string('title');
             $table->string('rating');

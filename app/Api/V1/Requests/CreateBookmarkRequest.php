@@ -9,13 +9,15 @@ class CreateBookmarkRequest extends BaseRequest implements CreateBookmarkContrac
     const POSTER = 'poster';
     const TITLE = 'title';
     const RUNTIME = 'runtime';
+    const IMDB_ID = 'imdb_id';
 
     public function rules() {
         return [
           self::RATING => 'required',
           self::POSTER => 'required',
           self::TITLE => 'required',
-          self::RUNTIME => 'required'
+          self::RUNTIME => 'required',
+          self::IMDB_ID => 'required'
         ];
     }
 
@@ -33,5 +35,9 @@ class CreateBookmarkRequest extends BaseRequest implements CreateBookmarkContrac
 
     public function getPoster() {
         return $this->get(self::POSTER);
+    }
+
+    public function getImdbID() {
+        return $this->get(self::IMDB_ID);
     }
 }

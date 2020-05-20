@@ -7,4 +7,5 @@ interface CreateBookmarkContract {
     public function getRating();
     public function getPoster();
     public function getRuntime();
+    public function getImdbID();
 }

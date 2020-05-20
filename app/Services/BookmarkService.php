@@ -11,6 +11,7 @@ class BookmarkService {
         $bookmark = new Bookmark();
 
         $bookmark->user_id = $user->id;
+        $bookmark->imdb_id = $contract->getImdbID();
         $bookmark->poster = $contract->getPoster();
         $bookmark->rating = $contract->getRating();
         $bookmark->runtime = $contract->getRuntime();
