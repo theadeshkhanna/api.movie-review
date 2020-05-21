@@ -5,6 +5,7 @@ namespace App\Services;
 use App\Api\V1\Exceptions\BookmarkAlreadyExists;
 use App\Bookmark;
 use App\Services\Contracts\CreateBookmarkContract;
+use App\Services\Contracts\DeleteBookmarkContract;
 
 class BookmarkService {
 
@@ -32,5 +33,10 @@ class BookmarkService {
 
     public function indexBookmarks($user) {
         return Bookmark::query()->where('user_id', '=', $user->id)->get();
+    }
+
+    public function deleteBookmark(DeleteBookmarkContract $contract) {
+        $bookmark = Bookmark::query()->where('imdb_id', '=', $contract->getImdbId())->get();
+        $bookmark->delete();
     }
 }

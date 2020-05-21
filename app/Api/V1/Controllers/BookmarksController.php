@@ -3,6 +3,7 @@
 namespace App\Api\V1\Controllers;
 
 use App\Api\V1\Requests\CreateBookmarkRequest;
+use App\Api\V1\Requests\DeleteBookmarkRequest;
 use App\Api\V1\Transformers\BookmarkTransformer;
 use App\Services\BookmarkService;
 use Illuminate\Support\Facades\Auth;
@@ -22,5 +23,9 @@ class BookmarksController extends BaseController {
     public function index() {
         $bookmarks = $this->bookmarkService->indexBookmarks(Auth::user());
         return $this->response->collection($bookmarks, new BookmarkTransformer());
+    }
+
+    public function delete(DeleteBookmarkRequest $request) {
+        $this->bookmarkService->deleteBookmark($request);
     }
 }

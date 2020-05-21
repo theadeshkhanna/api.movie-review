@@ -30,4 +30,6 @@ $api->version('v1', ['middleware' => ['api.auth']], function ($api) use ($baseCo
     $api->post('bookmark', $baseControllersPath . 'BookmarksController@create');
 
     $api->get('bookmarks', $baseControllersPath . 'BookmarksController@index');
+
+    $api->delete('bookmark', $baseControllersPath . 'BookmarksController@delete');
 });
