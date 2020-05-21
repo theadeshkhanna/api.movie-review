@@ -36,7 +36,7 @@ class BookmarkService {
     }
 
     public function deleteBookmark(DeleteBookmarkContract $contract) {
-        $bookmark = Bookmark::query()->where('imdb_id', '=', $contract->getImdbId())->get();
+        $bookmark = Bookmark::where('imdb_id', $contract->getImdbId());
         $bookmark->delete();
     }
 }
