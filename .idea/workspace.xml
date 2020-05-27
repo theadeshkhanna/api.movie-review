@@ -4,8 +4,6 @@
     <list default="true" id="d546e5e3-6b7c-4c01-b325-4faee4b7c502" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/OauthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/OauthController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +189,7 @@
       <workItem from="1590335326428" duration="692000" />
       <workItem from="1590415250628" duration="675000" />
       <workItem from="1590522186939" duration="1643000" />
-      <workItem from="1590586290908" duration="1927000" />
+      <workItem from="1590586290908" duration="6272000" />
     </task>
     <servers />
   </component>
@@ -203,10 +201,10 @@
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="730" y="297" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1588872520441" />
-    <state x="164" y="96" width="1657" height="885" key="DiffContextDialog" timestamp="1590079644457">
+    <state x="164" y="96" width="1657" height="885" key="DiffContextDialog" timestamp="1590593187826">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="164" y="96" width="1657" height="885" key="DiffContextDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1590079644457" />
+    <state x="164" y="96" width="1657" height="885" key="DiffContextDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1590593187826" />
     <state x="780" y="297" width="424" height="482" key="FileChooserDialogImpl" timestamp="1590156453332">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>

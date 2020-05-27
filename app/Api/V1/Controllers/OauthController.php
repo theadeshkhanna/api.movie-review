@@ -13,7 +13,7 @@ class OauthController extends BaseController {
     }
 
     public function redirect() {
-        return Socialite::driver('google')->redirect();
+        return Socialite::driver('google')->redirect()->getTargetUrl();
     }
 
     public function getUser() {
