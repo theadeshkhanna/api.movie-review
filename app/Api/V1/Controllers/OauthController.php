@@ -18,5 +18,6 @@ class OauthController extends BaseController {
 
     public function getUser() {
         $user = Socialite::driver('google')->user();
+        return $user->getName();
     }
 }

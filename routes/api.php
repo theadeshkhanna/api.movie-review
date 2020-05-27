@@ -22,6 +22,12 @@ $api->version('v1', function ($api) use ($baseControllersPath) {
     $api->post('login', $baseControllersPath . 'UserController@loginUser');
 });
 
+$api->version('v1', ['middleware' => ['web']],function ($api) use ($baseControllersPath) {
+    $api->get('oauth/google', $baseControllersPath . 'OauthController@redirect');
+
+    $api->get('oauth/google/callback', $baseControllersPath . 'OauthController@getUser');
+});
+
 $api->version('v1', ['middleware' => ['api.auth']], function ($api) use ($baseControllersPath) {
     $api->post('logout', $baseControllersPath . 'UserController@logoutUser');
 
