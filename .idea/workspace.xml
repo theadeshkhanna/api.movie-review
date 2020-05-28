@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d546e5e3-6b7c-4c01-b325-4faee4b7c502" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/OauthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/OauthController.php" afterDir="false" />
-    </list>
+    <list default="true" id="d546e5e3-6b7c-4c01-b325-4faee4b7c502" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -189,7 +186,7 @@
       <workItem from="1590335326428" duration="692000" />
       <workItem from="1590415250628" duration="675000" />
       <workItem from="1590522186939" duration="1643000" />
-      <workItem from="1590586290908" duration="6272000" />
+      <workItem from="1590586290908" duration="6319000" />
     </task>
     <servers />
   </component>
