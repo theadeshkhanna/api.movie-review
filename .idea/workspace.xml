@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d546e5e3-6b7c-4c01-b325-4faee4b7c502" name="Default Changelist" comment="" />
+    <list default="true" id="d546e5e3-6b7c-4c01-b325-4faee4b7c502" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Api/V1/Exceptions/MovieNotFoundException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Exceptions/HttpException.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Exceptions/HttpException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/MovieService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/MovieService.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,7 +141,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vaetas-shopify-backend" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
@@ -187,6 +192,12 @@
       <workItem from="1590415250628" duration="675000" />
       <workItem from="1590522186939" duration="1643000" />
       <workItem from="1590586290908" duration="6319000" />
+      <workItem from="1590694108051" duration="5494000" />
+      <workItem from="1590760549482" duration="726000" />
+      <workItem from="1590848225236" duration="1994000" />
+      <workItem from="1591020084618" duration="1467000" />
+      <workItem from="1591024139970" duration="1483000" />
+      <workItem from="1591107526842" duration="3915000" />
     </task>
     <servers />
   </component>
@@ -202,21 +213,21 @@
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="164" y="96" width="1657" height="885" key="DiffContextDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1590593187826" />
-    <state x="780" y="297" width="424" height="482" key="FileChooserDialogImpl" timestamp="1590156453332">
+    <state x="780" y="297" width="424" height="482" key="FileChooserDialogImpl" timestamp="1591109777383">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="780" y="297" width="424" height="482" key="FileChooserDialogImpl/65.24.1855.1056@65.24.1855.1056" timestamp="1590156453332" />
-    <state x="793" y="465" width="399" height="147" key="NewPhpFileDialog" timestamp="1590509395758">
+    <state x="780" y="297" width="424" height="482" key="FileChooserDialogImpl/65.24.1855.1056@65.24.1855.1056" timestamp="1591109777383" />
+    <state x="793" y="465" width="399" height="147" key="NewPhpFileDialog" timestamp="1591109905468">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="793" y="465" width="399" height="147" key="NewPhpFileDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1590509395758" />
+    <state x="793" y="465" width="399" height="147" key="NewPhpFileDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1591109905468" />
     <state x="655" y="246" key="run.anything.popup" timestamp="1589820697562">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="655" y="246" key="run.anything.popup/65.24.1855.1056@65.24.1855.1056" timestamp="1589820697562" />
-    <state x="655" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1590076840634">
+    <state x="655" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1591110749746">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="655" y="236" width="672" height="678" key="search.everywhere.popup/65.24.1855.1056@65.24.1855.1056" timestamp="1590076840634" />
+    <state x="655" y="236" width="672" height="678" key="search.everywhere.popup/65.24.1855.1056@65.24.1855.1056" timestamp="1591110749746" />
   </component>
 </project>
