@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d546e5e3-6b7c-4c01-b325-4faee4b7c502" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Api/V1/Exceptions/MovieNotFoundException.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Api/V1/Exceptions/HttpException.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Exceptions/HttpException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/MovieController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/MovieController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Services/MovieService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/MovieService.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -197,7 +196,7 @@
       <workItem from="1590848225236" duration="1994000" />
       <workItem from="1591020084618" duration="1467000" />
       <workItem from="1591024139970" duration="1483000" />
-      <workItem from="1591107526842" duration="3915000" />
+      <workItem from="1591107526842" duration="6242000" />
     </task>
     <servers />
   </component>
@@ -221,6 +220,10 @@
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="793" y="465" width="399" height="147" key="NewPhpFileDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1591109905468" />
+    <state x="164" y="68" width="1657" height="913" maximized="true" key="dock-window-1" timestamp="1591116408134">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="164" y="68" width="1657" height="913" maximized="true" key="dock-window-1/65.24.1855.1056@65.24.1855.1056" timestamp="1591116408134" />
     <state x="655" y="246" key="run.anything.popup" timestamp="1589820697562">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
